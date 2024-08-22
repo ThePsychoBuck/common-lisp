@@ -1,9 +1,8 @@
 # Tests
 
-## Testing interactively
+## Testing in REPL
 
-Start up your Common Lisp implementation in the directory of the exercise you are working on (or change the current directory for an already running Common Lisp implementation to that directory).
-Using roswell, do this with `ros run`.
+Start up your Common Lisp implementation. You can start a new REPL in Roswell with `ros run`. To change the directory in the interactive session, run `(setf *default-pathname-defaults* "path/to/your/exercise")`.
 
 (All examples here assume an exercise called `exercise-name` - adjust as needed.)
 
